@@ -21,20 +21,6 @@
         "postinstall": "electron-builder install-app-deps",
         "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
     },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "lint-staged": {
-        "{src,test,mocks}/**/*.{json,css,scss,md}": [
-            "prettier --config ./.prettierrc --write"
-        ],
-        "{src,test,mocks}/**/*.{js,ts,tsx}": [
-            "prettier --config ./.prettierrc --write",
-            "eslint --ext=jsx,js,ts,tsx --fix src"
-        ]
-    },
     "jest": {
         "transform": {
             "^.+\\.tsx?$": "ts-jest"
