@@ -1,3 +1,13 @@
 {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#888"
+        },
+        {
+            "column": 100,
+            "color": "#ccc"
+        }
+    ],
 }
