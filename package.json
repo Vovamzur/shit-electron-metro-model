@@ -1,7 +1,7 @@
 {
     "name": "electron-react-typescript",
     "version": "0.0.7",
-    "description": "",
+    "description": "RSOI",
     "main": "./dist/main.js",
     "scripts": {
         "build-main": "cross-env NODE_ENV=production webpack --config webpack.main.prod.config.js",
@@ -48,6 +48,7 @@
             "output": "release"
         },
         "files": [
+            "assets",
             "dist/",
             "node_modules/",
             "package.json"
@@ -129,7 +130,7 @@
         "webpack-merge": "^4.2.1"
     },
     "dependencies": {
-        "react": "^16.8.6",
+        "react": "^16.13.1",
         "react-dom": "^16.8.6",
         "react-redux": "^7.0.3",
         "redux": "^4.0.1"
